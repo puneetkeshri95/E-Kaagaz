@@ -1,4 +1,4 @@
-const apiKey = "a6550fc72fee828c4c7eea36cc7ee285";
+//const apiKey = "ENTER YOUR OWN API KEY"
 function fetchWeather(cityName, latitude, longitude) {
   let url = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&units=metric`;
 
